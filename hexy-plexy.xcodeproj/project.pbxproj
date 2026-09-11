@@ -3,67 +3,226 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		9D53817DA80884834A07CE48 /* Hexy-Plexy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hexy-Plexy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F866B1ED2DC3FEB243E4C6BC /* Hexy-Plexy-Sierra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hexy-Plexy-Sierra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
-		4C0AFCEE3053C98F003512D9 = {
+		3BE74BE36A146DD6FAA5838B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F866B1ED2DC3FEB243E4C6BC /* Hexy-Plexy-Sierra.app */,
+				9D53817DA80884834A07CE48 /* Hexy-Plexy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C2FCE7B2BB0CC9372689BFD = {
+			isa = PBXGroup;
+			children = (
+				C70A020E3FA6CC688464B892 /* Sources */,
+				3BE74BE36A146DD6FAA5838B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C70A020E3FA6CC688464B892 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXNativeTarget section */
+		179335C20ACD85FF6628F59B /* Hexy-Plexy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F1056F82B7B2E9E9D7ED2C /* Build configuration list for PBXNativeTarget "Hexy-Plexy" */;
+			buildPhases = (
+				089B9B22575D8ADDA2F60F90 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hexy-Plexy";
+			packageProductDependencies = (
+			);
+			productName = "Hexy-Plexy";
+			productReference = 9D53817DA80884834A07CE48 /* Hexy-Plexy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C6525B84D67AD7B67C19713 /* Hexy-Plexy-Sierra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F182B435D8CE34D0B39D7DC /* Build configuration list for PBXNativeTarget "Hexy-Plexy-Sierra" */;
+			buildPhases = (
+				CAA3E99E9CA4D2B00F9F6B5E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hexy-Plexy-Sierra";
+			packageProductDependencies = (
+			);
+			productName = "Hexy-Plexy-Sierra";
+			productReference = F866B1ED2DC3FEB243E4C6BC /* Hexy-Plexy-Sierra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
-		4C0AFCEF3053C98F003512D9 /* Project object */ = {
+		680419C40DC7B3EE5328CF02 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+				};
 			};
-			buildConfigurationList = 4C0AFCF23053C98F003512D9 /* Build configuration list for PBXProject "hexy-plexy" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 75B80DBA72B841A03AFF883D /* Build configuration list for PBXProject "Hexy-Plexy" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 4C0AFCEE3053C98F003512D9;
+			mainGroup = 6C2FCE7B2BB0CC9372689BFD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3BE74BE36A146DD6FAA5838B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				179335C20ACD85FF6628F59B /* Hexy-Plexy */,
+				8C6525B84D67AD7B67C19713 /* Hexy-Plexy-Sierra */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		089B9B22575D8ADDA2F60F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA3E99E9CA4D2B00F9F6B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
-		4C0AFCF33053C98F003512D9 /* Debug */ = {
+		04E6E760ABC6DCB090EEB578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = "Supporting/Hexy-Plexy.entitlements";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Supporting/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergo.sum.coge.hexy-plexy";
+				PRODUCT_NAME = "Hexy-Plexy";
+			};
+			name = Release;
+		};
+		1E2B6AF08E58ACE6636AE428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		90E52534716367145D0BFCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_ENTITLEMENTS = "Supporting/Hexy-Plexy.entitlements";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Supporting/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergo.sum.coge.hexy-plexy.sierra";
+				PRODUCT_NAME = "Hexy-Plexy";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
-		4C0AFCF43053C98F003512D9 /* Release */ = {
+		920800A8FFCEC8156F59E382 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_ENTITLEMENTS = "Supporting/Hexy-Plexy.entitlements";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Supporting/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergo.sum.coge.hexy-plexy.sierra";
+				PRODUCT_NAME = "Hexy-Plexy";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
+		};
+		D97509FB174A288C24138255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = "Supporting/Hexy-Plexy.entitlements";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Supporting/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergo.sum.coge.hexy-plexy";
+				PRODUCT_NAME = "Hexy-Plexy";
+			};
+			name = Debug;
+		};
+		EA1279961A8CCF094FF6EBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = macosx;
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C0AFCF23053C98F003512D9 /* Build configuration list for PBXProject "hexy-plexy" */ = {
+		72F1056F82B7B2E9E9D7ED2C /* Build configuration list for PBXNativeTarget "Hexy-Plexy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C0AFCF33053C98F003512D9 /* Debug */,
-				4C0AFCF43053C98F003512D9 /* Release */,
+				D97509FB174A288C24138255 /* Debug */,
+				04E6E760ABC6DCB090EEB578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
+		};
+		75B80DBA72B841A03AFF883D /* Build configuration list for PBXProject "Hexy-Plexy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1279961A8CCF094FF6EBFD /* Debug */,
+				1E2B6AF08E58ACE6636AE428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F182B435D8CE34D0B39D7DC /* Build configuration list for PBXNativeTarget "Hexy-Plexy-Sierra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E52534716367145D0BFCBF /* Debug */,
+				920800A8FFCEC8156F59E382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4C0AFCEF3053C98F003512D9 /* Project object */;
+	rootObject = 680419C40DC7B3EE5328CF02 /* Project object */;
 }
