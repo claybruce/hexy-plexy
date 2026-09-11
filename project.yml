@@ -29,10 +29,21 @@ targets:
     platform: macOS
 
     sources:
-      - path: Sources
+      - path: .
+        excludes:
+          - .git
+          - .github
+          - .build
+          - .vscode
+          - Build
+          - docs
+          - Hexy-Plexy.xcodeproj
+          - Assets.xcassets
+          - Info.plist
+          - Hexy-Plexy.entitlements
 
     resources:
-      - path: Resources
+      - path: Assets.xcassets
 
     settings:
       base:
@@ -40,11 +51,13 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: ergo.sum.coge.hexy-plexy
         MACOSX_DEPLOYMENT_TARGET: "13.0"
         ARCHS: "$(ARCHS_STANDARD)"
-        INFOPLIST_FILE: Supporting/Info.plist
+        INFOPLIST_FILE: Info.plist
         ENABLE_HARDENED_RUNTIME: YES
 
     entitlements:
-      path: Supporting/Hexy-Plexy.entitlements
+      path: Hexy-Plexy.entitlements
       properties:
         com.apple.security.app-sandbox: true
         com.apple.security.files.user-selected.read-write: true
+        com.apple.security.files.bookmarks.app-scope: true
+        
