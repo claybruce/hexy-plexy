@@ -195,7 +195,7 @@ struct ContentView: View {
                 .help(showInspector ? "Hide Inspector" : "Show Inspector")
             }
         }
-        .onChange(of: document.requestDuplicate) { _, newValue in
+        .onChange(of: document.requestDuplicate) { newValue in
             if newValue {
                 // Only handle if QuickActions is not active (it handles it internally)
                 if !showQuickActions {
@@ -295,7 +295,7 @@ struct ContentView: View {
                 print("Error loading comparison file: \(error.localizedDescription)")
             }
         }
-        .onChange(of: comparisonMode) { _, newValue in
+        .onChange(of: comparisonMode) { newValue in
             if !newValue {
                 // Clean up comparison document when exiting comparison mode
                 comparisonDocument = nil

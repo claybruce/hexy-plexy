@@ -69,7 +69,7 @@ struct ChecksumView: View {
                 .buttonStyle(.plain)
                 .focusable(false)
                 .disabled(selection.isEmpty)
-                .onChange(of: useSelection) {
+                .onChange(of: useSelection) { _ in
                     calculateChecksums()
                 }
                 .padding(.horizontal, 12)

@@ -104,10 +104,10 @@ struct BitmapView: View {
             }
         }
         .frame(minWidth: 800, minHeight: 600)
-        .onChange(of: width) {
+        .onChange(of: width) { _ in
             render()
         }
-        .onChange(of: pixelFormat) {
+        .onChange(of: pixelFormat) { _ in
             render()
         }
         .onAppear {

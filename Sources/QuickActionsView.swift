@@ -156,7 +156,7 @@ struct QuickActionsView: View {
         ) { result in
             // Handle export result
         }
-        .onChange(of: document.requestDuplicate) { _, newValue in
+        .onChange(of: document.requestDuplicate) { newValue in
             if newValue {
                 showDuplicateAlert = true
                 document.requestDuplicate = false

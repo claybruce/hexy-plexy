@@ -222,12 +222,12 @@ struct ExportView: View {
             }
         }
         .frame(width: 800, height: 600)
-        .onChange(of: selectedFormat) { _, _ in generatePreview() }
-        .onChange(of: variableName) { _, _ in if selectedFormat == .cArray { generatePreview() } }
-        .onChange(of: bytesPerLine) { _, _ in if selectedFormat == .cArray || selectedFormat == .hexDump { generatePreview() } }
-        .onChange(of: includeLength) { _, _ in if selectedFormat == .cArray { generatePreview() } }
-        .onChange(of: showOffsets) { _, _ in if selectedFormat == .hexDump { generatePreview() } }
-        .onChange(of: showASCII) { _, _ in if selectedFormat == .hexDump { generatePreview() } }
+        .onChange(of: selectedFormat) { _ in generatePreview() }
+        .onChange(of: variableName) { _ in if selectedFormat == .cArray { generatePreview() } }
+        .onChange(of: bytesPerLine) { _ in if selectedFormat == .cArray || selectedFormat == .hexDump { generatePreview() } }
+        .onChange(of: includeLength) { _ in if selectedFormat == .cArray { generatePreview() } }
+        .onChange(of: showOffsets) { _ in if selectedFormat == .hexDump { generatePreview() } }
+        .onChange(of: showASCII) { _ in if selectedFormat == .hexDump { generatePreview() } }
         .onAppear {
             generatePreview()
         }

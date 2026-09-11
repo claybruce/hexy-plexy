@@ -6,7 +6,7 @@ options:
   groupSortPosition: top
   generateEmptyDirectories: true
   deploymentTarget:
-    macOS: "11.0"
+    macOS: "13.0"
   xcodeVersion: "15.2"
 
 configs:
@@ -38,7 +38,7 @@ targets:
       base:
         PRODUCT_NAME: "Hexy-Plexy"
         PRODUCT_BUNDLE_IDENTIFIER: ergo.sum.coge.hexy-plexy
-        MACOSX_DEPLOYMENT_TARGET: "11.0"
+        MACOSX_DEPLOYMENT_TARGET: "13.0"
         ARCHS: "$(ARCHS_STANDARD)"
         INFOPLIST_FILE: Supporting/Info.plist
         ENABLE_HARDENED_RUNTIME: YES
@@ -48,30 +48,3 @@ targets:
       properties:
         com.apple.security.app-sandbox: true
         com.apple.security.files.user-selected.read-write: true
-
-  Hexy-Plexy-Sierra:
-    type: application
-    platform: macOS
-
-    sources:
-      - path: Sources
-
-    resources:
-      - path: Resources
-
-    settings:
-      base:
-        PRODUCT_NAME: "Hexy-Plexy"
-        PRODUCT_BUNDLE_IDENTIFIER: ergo.sum.coge.hexy-plexy.sierra
-        MACOSX_DEPLOYMENT_TARGET: "10.13"
-        ARCHS: x86_64
-        VALID_ARCHS: x86_64
-        INFOPLIST_FILE: Supporting/Info.plist
-        ENABLE_HARDENED_RUNTIME: YES
-
-    entitlements:
-      path: Supporting/Hexy-Plexy.entitlements
-      properties:
-        com.apple.security.app-sandbox: true
-        com.apple.security.files.user-selected.read-write: true
-        com.apple.security.files.bookmarks.app-scope: true
