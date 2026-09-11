@@ -49,10 +49,25 @@ targets:
       base:
         PRODUCT_NAME: "Hexy-Plexy"
         PRODUCT_BUNDLE_IDENTIFIER: ergo.sum.coge.hexy-plexy
+        SWIFT_VERSION: "5.9"
         MACOSX_DEPLOYMENT_TARGET: "13.0"
         ARCHS: "$(ARCHS_STANDARD)"
         INFOPLIST_FILE: Info.plist
         ENABLE_HARDENED_RUNTIME: YES
+
+    info:
+      path: Info.plist
+      properties:
+        CFBundleName: "Hexy-Plexy"
+        CFBundleDisplayName: "Hexy-Plexy"
+        CFBundleIdentifier: ergo.sum.coge.hexy-plexy
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        NSHumanReadableCopyright: "Copyright © 2025. All rights reserved."
+        LSApplicationCategoryType: public.app-category.developer-tools
+        NSSupportsAutomaticTermination: true
+        NSSupportsSuddenTermination: true
+        NSQuitAlwaysKeepsWindows: false
 
     entitlements:
       path: Hexy-Plexy.entitlements
@@ -60,4 +75,4 @@ targets:
         com.apple.security.app-sandbox: true
         com.apple.security.files.user-selected.read-write: true
         com.apple.security.files.bookmarks.app-scope: true
-        
+

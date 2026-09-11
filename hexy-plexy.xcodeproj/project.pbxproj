@@ -7,71 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09E4E794A844D543DE81A102 /* FileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_05F1904B-978D-4AB9-B721-75B673CFCFB5" /* FileInfoView.swift */; };
-		0B586ABFADF6B0A40A54F5BF /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_57E95DB0-2B9D-403D-9F63-2E6892DAEF3F" /* StatusBarView.swift */; };
-		0D23BF9DCC0FEB5B7A82664E /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_BEFA63E3-EF7F-44AF-820C-6341D7AC0B02" /* StatisticsView.swift */; };
-		0F4C1FF5C25C22F0427C903D /* HxEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_866A7CFC-78B8-401F-A563-A47C33EB3938" /* HxEditorApp.swift */; };
-		1D88A8647E70E5C40562798A /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_04919F3A-723A-4015-8674-50997BB2EC22" /* BookmarkManager.swift */; };
-		29C7F245198588570D941DC1 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = "TEMP_6D09032F-6017-4337-B363-7913FA3C9B96" /* project.yml */; };
-		34CB73751FB209D299D28278 /* StringsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_CF9FF442-67A2-47C2-AEA4-56F166233AE0" /* StringsView.swift */; };
-		362296C5D2D18F3EBE821902 /* StringExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_A5E27F07-BDDB-451A-8BBA-F9F7B11B74B7" /* StringExtractor.swift */; };
-		3D4AAAB9C5383C4C321D9C24 /* ByteColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_F770E83B-0074-4EAC-87C1-F97DCB748E65" /* ByteColorScheme.swift */; };
-		3F854CA0955FCA67BFD44C4D /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_1BD03594-A0BD-4B9E-AD19-24CB19D1F859" /* ExportView.swift */; };
-		59C518AB0EFE22950536E770 /* HexGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_43115904-6008-47F1-AFA6-3A9DF4617961" /* HexGridView.swift */; };
-		78DBD638F2A1A0C419ECEB17 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_329719D2-9A36-4C91-864E-C3439EA9DD90" /* SearchView.swift */; };
-		8A34389A8BBEDF2E8FBB4085 /* ComparisonHexGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_C92BD562-2915-47E8-BAB9-ED687B78E4B1" /* ComparisonHexGridView.swift */; };
-		8A7ED594BAFFDF5E8D79044F /* HexDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_5EB92C4E-701D-47D9-AFF8-6158C5C71BA2" /* HexDocument.swift */; };
-		92404561E2CFB20C456523EC /* HexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_250EAB86-F111-47DA-AA34-57C41107C42C" /* HexTextView.swift */; };
-		935EA0EBC7DB3CA616AD3B13 /* DiffEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_69D91283-16C3-450C-B36D-4BE841F77A88" /* DiffEngine.swift */; };
-		A3848274882C8672C50D4097 /* MetadataEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_EF4C305D-7EC5-482E-A89F-00FF141DB423" /* MetadataEditorView.swift */; };
-		A691E42277B413985CBC490A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_3FAB77E2-FD89-4354-AB18-D1ABC5897389" /* ContentView.swift */; };
-		AF25F3F66E71AD6BCB652D14 /* ChecksumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_555C94BE-8C3D-415F-8DA0-F15498B27CAA" /* ChecksumView.swift */; };
-		B14FAEF8A827A5CC86E533C0 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_5E4D8DFF-FEE9-428F-84D2-2F673693FE9E" /* InspectorView.swift */; };
-		B63A0EE655AB573F15F785F9 /* ComparisonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_7C067D96-5987-4DB8-B940-175B24120CDB" /* ComparisonContentView.swift */; };
-		B75139AB82116846DCFA955B /* BitmapRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_C5D0B0B9-0E94-4B17-9786-A024994B8DEE" /* BitmapRenderer.swift */; };
-		BAD82DA34513D1C8232A91B7 /* MetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_F6CCF94F-013F-4696-B72D-5005E41E337E" /* MetadataManager.swift */; };
-		BED67B21838D499C2D329866 /* DataBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_AC20EE91-5983-4921-B9C1-10CA631B304C" /* DataBuffer.swift */; };
-		C1EF1FB180665745798BF2C9 /* JumpToOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_4206042F-BA4C-47EB-A05E-8343CE060C68" /* JumpToOffsetView.swift */; };
-		C59C2B68CCA313FD9BD339DB /* HexInputHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_48E7BB0C-AA72-4DEA-B360-FE0534F4D5FA" /* HexInputHelper.swift */; };
-		E103A54075F96D373CC1AB19 /* BitmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_1A976534-80B4-4958-8A02-2C94DEB0477D" /* BitmapView.swift */; };
-		E714CB1B23DFEDC67BD9DEC8 /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_9609E4C6-D75D-45C9-ACB6-E239D4D969DA" /* QuickActionsView.swift */; };
-		E876796052E9FED3BC752A7D /* InsertDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_5FF15BB4-AB50-410E-B2F5-0789FAC10048" /* InsertDataView.swift */; };
-		FB083E0432BE80B86457343B /* ComparisonHexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_FEC2477F-683C-42E0-A1E2-6AE7FE3791D4" /* ComparisonHexTextView.swift */; };
+		064BD25453E4E4B844278323 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_CC87B983-2F65-4DB4-91F8-CDA7A28CCACD" /* InspectorView.swift */; };
+		0E2A2EC4F7BC1E93EE4F0052 /* MetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_B704DB20-CD44-4079-ABD5-5403885C37D8" /* MetadataManager.swift */; };
+		10185F5718783123B6D05091 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = "TEMP_6B6CBD78-0CB0-4678-AA83-C5C16FF78A81" /* project.yml */; };
+		11AFF6BA36404584468D821D /* DataBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_BFEC8175-5F33-42E5-8533-F939302038FE" /* DataBuffer.swift */; };
+		13CD7205387D3016268DC34F /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_76981C8B-4422-4B06-983A-8887BB92A040" /* BookmarkManager.swift */; };
+		18B50F89DA13393BC36CE767 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_83B92DCD-8BCB-4FD2-8AA5-A08A2FC29953" /* StatisticsView.swift */; };
+		2077C625E3B1F33E7850DC8E /* ComparisonHexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_C3648F8C-30A3-4A07-AAF8-5BAFD28E1B42" /* ComparisonHexTextView.swift */; };
+		2430B3D413E602E72D93BD8F /* HexGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_3CCE090F-007D-4E13-BBDC-133A51B4CE02" /* HexGridView.swift */; };
+		25B80789E290708FC5D69560 /* BitmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_FC50BE38-FFA6-41F6-95FD-5C0677EBA9E4" /* BitmapView.swift */; };
+		2D34D531C3F72F97207F64F4 /* MetadataEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_6CA1AD28-6249-4E51-9AE4-91A718B9EC0C" /* MetadataEditorView.swift */; };
+		3AC29CA5EE4D30ABF9F24A69 /* JumpToOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_86FBA2AE-2C20-4EB5-935E-65FADD574F08" /* JumpToOffsetView.swift */; };
+		411293D7FA235578AC3BCF7F /* HexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_F4291E49-DB3D-4078-9B72-07F091126BD0" /* HexTextView.swift */; };
+		4325CC1B925B7CBF0184A46D /* HexInputHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_6B900509-9AAD-4CDA-9604-D0C13B9BFAD0" /* HexInputHelper.swift */; };
+		4B8753EE11D041B4DE4138FA /* BitmapRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_6975CD21-4538-48DA-8198-B85DA01CD746" /* BitmapRenderer.swift */; };
+		4BBD0D2BEDCA785E15E5C6EE /* DiffEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_08E8AEB4-F19A-4C8C-A34D-18784E0C1683" /* DiffEngine.swift */; };
+		5320DBA77D1AAB08587E1246 /* StringExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_F60EBFA2-4044-42D9-B793-2513EBE21B50" /* StringExtractor.swift */; };
+		6555833B00BD97E770FA16DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_3BC65E7D-A13F-409A-8D73-41755D364751" /* ContentView.swift */; };
+		74BEDA7B7190317783B2D3FA /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_82C4576B-65E9-46A8-9871-5CF473E0EC14" /* ExportView.swift */; };
+		78BF5E6C3449D6B9018F3DF7 /* ComparisonHexGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_E38B9FDC-6F42-4DB4-B1FD-D43483A55183" /* ComparisonHexGridView.swift */; };
+		90EB9A6D6E0DAB7061A12B00 /* ChecksumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_4EDF4D23-229F-4513-B367-35FA3BD66618" /* ChecksumView.swift */; };
+		9A1FD39BC31FA2CD83BFBF09 /* ComparisonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_45C26002-D680-4531-AECE-9346A28BC05F" /* ComparisonContentView.swift */; };
+		9C45B9A4DF6B89EA80EFB173 /* HexDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_05B32649-33BB-4333-ABFC-9112EBB9A190" /* HexDocument.swift */; };
+		9F5F1706F1899E0D09EE2318 /* FileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_79325A71-B371-4908-B06C-B55895B1E5E2" /* FileInfoView.swift */; };
+		A36B9DAC8D0FAC31688E5113 /* HxEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_D5B35B50-8801-42F1-9470-00F310CBDF35" /* HxEditorApp.swift */; };
+		A6D8FCD770DD782DDA056F41 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_630DF546-B784-4CAF-A98E-7EF0C53D180C" /* SearchView.swift */; };
+		A7D39966FAF0E257422D81C4 /* ByteColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_C5AA7FD5-131C-4095-9FA5-B7D145B7AD84" /* ByteColorScheme.swift */; };
+		B44CFF6BD103EB54E086596E /* StringsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_9AB9A2B1-AFC9-4EB5-9609-7F52C60B414F" /* StringsView.swift */; };
+		DF76D98471D7CB58EFC772BB /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_F30E9334-4A82-48D1-B505-D19D2C8B9C7C" /* StatusBarView.swift */; };
+		F09184F58EDEAE9AE7AECA00 /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_A0995AE2-E85B-4F04-A16C-FF7DC9398760" /* QuickActionsView.swift */; };
+		F7F1DBE653B74B8C83A48DF9 /* InsertDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_31C61B69-2AAF-4E9B-8C4D-540BA1B7FDBB" /* InsertDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D53817DA80884834A07CE48 /* Hexy-Plexy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hexy-Plexy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"TEMP_04919F3A-723A-4015-8674-50997BB2EC22" /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
-		"TEMP_05F1904B-978D-4AB9-B721-75B673CFCFB5" /* FileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfoView.swift; sourceTree = "<group>"; };
-		"TEMP_1A976534-80B4-4958-8A02-2C94DEB0477D" /* BitmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmapView.swift; sourceTree = "<group>"; };
-		"TEMP_1BD03594-A0BD-4B9E-AD19-24CB19D1F859" /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
-		"TEMP_250EAB86-F111-47DA-AA34-57C41107C42C" /* HexTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexTextView.swift; sourceTree = "<group>"; };
-		"TEMP_329719D2-9A36-4C91-864E-C3439EA9DD90" /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		"TEMP_3FAB77E2-FD89-4354-AB18-D1ABC5897389" /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		"TEMP_4206042F-BA4C-47EB-A05E-8343CE060C68" /* JumpToOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpToOffsetView.swift; sourceTree = "<group>"; };
-		"TEMP_43115904-6008-47F1-AFA6-3A9DF4617961" /* HexGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexGridView.swift; sourceTree = "<group>"; };
-		"TEMP_48E7BB0C-AA72-4DEA-B360-FE0534F4D5FA" /* HexInputHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexInputHelper.swift; sourceTree = "<group>"; };
-		"TEMP_53895A9B-2B9B-404B-ACC1-AEA22C702475" /* .gitignore */ = {isa = PBXFileReference; path = .gitignore; sourceTree = "<group>"; };
-		"TEMP_555C94BE-8C3D-415F-8DA0-F15498B27CAA" /* ChecksumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecksumView.swift; sourceTree = "<group>"; };
-		"TEMP_57E95DB0-2B9D-403D-9F63-2E6892DAEF3F" /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
-		"TEMP_5E4D8DFF-FEE9-428F-84D2-2F673693FE9E" /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
-		"TEMP_5EB92C4E-701D-47D9-AFF8-6158C5C71BA2" /* HexDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexDocument.swift; sourceTree = "<group>"; };
-		"TEMP_5FF15BB4-AB50-410E-B2F5-0789FAC10048" /* InsertDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDataView.swift; sourceTree = "<group>"; };
-		"TEMP_69D91283-16C3-450C-B36D-4BE841F77A88" /* DiffEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffEngine.swift; sourceTree = "<group>"; };
-		"TEMP_6D09032F-6017-4337-B363-7913FA3C9B96" /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
-		"TEMP_7C067D96-5987-4DB8-B940-175B24120CDB" /* ComparisonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonContentView.swift; sourceTree = "<group>"; };
-		"TEMP_866A7CFC-78B8-401F-A563-A47C33EB3938" /* HxEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HxEditorApp.swift; sourceTree = "<group>"; };
-		"TEMP_9609E4C6-D75D-45C9-ACB6-E239D4D969DA" /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsView.swift; sourceTree = "<group>"; };
-		"TEMP_A5E27F07-BDDB-451A-8BBA-F9F7B11B74B7" /* StringExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtractor.swift; sourceTree = "<group>"; };
-		"TEMP_AC20EE91-5983-4921-B9C1-10CA631B304C" /* DataBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBuffer.swift; sourceTree = "<group>"; };
-		"TEMP_BEFA63E3-EF7F-44AF-820C-6341D7AC0B02" /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
-		"TEMP_C5D0B0B9-0E94-4B17-9786-A024994B8DEE" /* BitmapRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmapRenderer.swift; sourceTree = "<group>"; };
-		"TEMP_C92BD562-2915-47E8-BAB9-ED687B78E4B1" /* ComparisonHexGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonHexGridView.swift; sourceTree = "<group>"; };
-		"TEMP_CF9FF442-67A2-47C2-AEA4-56F166233AE0" /* StringsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsView.swift; sourceTree = "<group>"; };
-		"TEMP_EF4C305D-7EC5-482E-A89F-00FF141DB423" /* MetadataEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataEditorView.swift; sourceTree = "<group>"; };
-		"TEMP_F6CCF94F-013F-4696-B72D-5005E41E337E" /* MetadataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataManager.swift; sourceTree = "<group>"; };
-		"TEMP_F770E83B-0074-4EAC-87C1-F97DCB748E65" /* ByteColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteColorScheme.swift; sourceTree = "<group>"; };
-		"TEMP_FEC2477F-683C-42E0-A1E2-6AE7FE3791D4" /* ComparisonHexTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonHexTextView.swift; sourceTree = "<group>"; };
+		"TEMP_05B32649-33BB-4333-ABFC-9112EBB9A190" /* HexDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexDocument.swift; sourceTree = "<group>"; };
+		"TEMP_08E8AEB4-F19A-4C8C-A34D-18784E0C1683" /* DiffEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffEngine.swift; sourceTree = "<group>"; };
+		"TEMP_31C61B69-2AAF-4E9B-8C4D-540BA1B7FDBB" /* InsertDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDataView.swift; sourceTree = "<group>"; };
+		"TEMP_3BC65E7D-A13F-409A-8D73-41755D364751" /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		"TEMP_3CCE090F-007D-4E13-BBDC-133A51B4CE02" /* HexGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexGridView.swift; sourceTree = "<group>"; };
+		"TEMP_45C26002-D680-4531-AECE-9346A28BC05F" /* ComparisonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonContentView.swift; sourceTree = "<group>"; };
+		"TEMP_4EDF4D23-229F-4513-B367-35FA3BD66618" /* ChecksumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecksumView.swift; sourceTree = "<group>"; };
+		"TEMP_630DF546-B784-4CAF-A98E-7EF0C53D180C" /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		"TEMP_6975CD21-4538-48DA-8198-B85DA01CD746" /* BitmapRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmapRenderer.swift; sourceTree = "<group>"; };
+		"TEMP_6B6CBD78-0CB0-4678-AA83-C5C16FF78A81" /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
+		"TEMP_6B900509-9AAD-4CDA-9604-D0C13B9BFAD0" /* HexInputHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexInputHelper.swift; sourceTree = "<group>"; };
+		"TEMP_6CA1AD28-6249-4E51-9AE4-91A718B9EC0C" /* MetadataEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataEditorView.swift; sourceTree = "<group>"; };
+		"TEMP_76981C8B-4422-4B06-983A-8887BB92A040" /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
+		"TEMP_79325A71-B371-4908-B06C-B55895B1E5E2" /* FileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfoView.swift; sourceTree = "<group>"; };
+		"TEMP_82C4576B-65E9-46A8-9871-5CF473E0EC14" /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		"TEMP_83B92DCD-8BCB-4FD2-8AA5-A08A2FC29953" /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		"TEMP_86FBA2AE-2C20-4EB5-935E-65FADD574F08" /* JumpToOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpToOffsetView.swift; sourceTree = "<group>"; };
+		"TEMP_9AB9A2B1-AFC9-4EB5-9609-7F52C60B414F" /* StringsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsView.swift; sourceTree = "<group>"; };
+		"TEMP_A0995AE2-E85B-4F04-A16C-FF7DC9398760" /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsView.swift; sourceTree = "<group>"; };
+		"TEMP_AAAA0DA8-89E6-44B3-A12F-1C219F8657D8" /* .gitignore */ = {isa = PBXFileReference; path = .gitignore; sourceTree = "<group>"; };
+		"TEMP_B704DB20-CD44-4079-ABD5-5403885C37D8" /* MetadataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataManager.swift; sourceTree = "<group>"; };
+		"TEMP_BFEC8175-5F33-42E5-8533-F939302038FE" /* DataBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBuffer.swift; sourceTree = "<group>"; };
+		"TEMP_C3648F8C-30A3-4A07-AAF8-5BAFD28E1B42" /* ComparisonHexTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonHexTextView.swift; sourceTree = "<group>"; };
+		"TEMP_C5AA7FD5-131C-4095-9FA5-B7D145B7AD84" /* ByteColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteColorScheme.swift; sourceTree = "<group>"; };
+		"TEMP_CC87B983-2F65-4DB4-91F8-CDA7A28CCACD" /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
+		"TEMP_D5B35B50-8801-42F1-9470-00F310CBDF35" /* HxEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HxEditorApp.swift; sourceTree = "<group>"; };
+		"TEMP_E38B9FDC-6F42-4DB4-B1FD-D43483A55183" /* ComparisonHexGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonHexGridView.swift; sourceTree = "<group>"; };
+		"TEMP_F30E9334-4A82-48D1-B505-D19D2C8B9C7C" /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		"TEMP_F4291E49-DB3D-4078-9B72-07F091126BD0" /* HexTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexTextView.swift; sourceTree = "<group>"; };
+		"TEMP_F60EBFA2-4044-42D9-B793-2513EBE21B50" /* StringExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtractor.swift; sourceTree = "<group>"; };
+		"TEMP_FC50BE38-FFA6-41F6-95FD-5C0677EBA9E4" /* BitmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -90,40 +90,40 @@
 			);
 			sourceTree = "<group>";
 		};
-		"TEMP_53FE6E20-9D5D-43D2-AC6E-026E983D1EFE" /* . */ = {
+		"TEMP_151CB10E-2A72-4C1D-B91F-6F4EA6AEB2F4" /* . */ = {
 			isa = PBXGroup;
 			children = (
-				"TEMP_5EB92C4E-701D-47D9-AFF8-6158C5C71BA2" /* HexDocument.swift */,
-				"TEMP_555C94BE-8C3D-415F-8DA0-F15498B27CAA" /* ChecksumView.swift */,
-				"TEMP_250EAB86-F111-47DA-AA34-57C41107C42C" /* HexTextView.swift */,
-				"TEMP_FEC2477F-683C-42E0-A1E2-6AE7FE3791D4" /* ComparisonHexTextView.swift */,
-				"TEMP_329719D2-9A36-4C91-864E-C3439EA9DD90" /* SearchView.swift */,
-				"TEMP_5FF15BB4-AB50-410E-B2F5-0789FAC10048" /* InsertDataView.swift */,
-				"TEMP_1A976534-80B4-4958-8A02-2C94DEB0477D" /* BitmapView.swift */,
-				"TEMP_EF4C305D-7EC5-482E-A89F-00FF141DB423" /* MetadataEditorView.swift */,
-				"TEMP_BEFA63E3-EF7F-44AF-820C-6341D7AC0B02" /* StatisticsView.swift */,
-				"TEMP_C92BD562-2915-47E8-BAB9-ED687B78E4B1" /* ComparisonHexGridView.swift */,
-				"TEMP_43115904-6008-47F1-AFA6-3A9DF4617961" /* HexGridView.swift */,
-				"TEMP_05F1904B-978D-4AB9-B721-75B673CFCFB5" /* FileInfoView.swift */,
-				"TEMP_6D09032F-6017-4337-B363-7913FA3C9B96" /* project.yml */,
-				"TEMP_5E4D8DFF-FEE9-428F-84D2-2F673693FE9E" /* InspectorView.swift */,
-				"TEMP_48E7BB0C-AA72-4DEA-B360-FE0534F4D5FA" /* HexInputHelper.swift */,
-				"TEMP_CF9FF442-67A2-47C2-AEA4-56F166233AE0" /* StringsView.swift */,
-				"TEMP_A5E27F07-BDDB-451A-8BBA-F9F7B11B74B7" /* StringExtractor.swift */,
-				"TEMP_F770E83B-0074-4EAC-87C1-F97DCB748E65" /* ByteColorScheme.swift */,
-				"TEMP_1BD03594-A0BD-4B9E-AD19-24CB19D1F859" /* ExportView.swift */,
-				"TEMP_53895A9B-2B9B-404B-ACC1-AEA22C702475" /* .gitignore */,
-				"TEMP_AC20EE91-5983-4921-B9C1-10CA631B304C" /* DataBuffer.swift */,
-				"TEMP_69D91283-16C3-450C-B36D-4BE841F77A88" /* DiffEngine.swift */,
-				"TEMP_F6CCF94F-013F-4696-B72D-5005E41E337E" /* MetadataManager.swift */,
-				"TEMP_866A7CFC-78B8-401F-A563-A47C33EB3938" /* HxEditorApp.swift */,
-				"TEMP_57E95DB0-2B9D-403D-9F63-2E6892DAEF3F" /* StatusBarView.swift */,
-				"TEMP_C5D0B0B9-0E94-4B17-9786-A024994B8DEE" /* BitmapRenderer.swift */,
-				"TEMP_9609E4C6-D75D-45C9-ACB6-E239D4D969DA" /* QuickActionsView.swift */,
-				"TEMP_3FAB77E2-FD89-4354-AB18-D1ABC5897389" /* ContentView.swift */,
-				"TEMP_4206042F-BA4C-47EB-A05E-8343CE060C68" /* JumpToOffsetView.swift */,
-				"TEMP_7C067D96-5987-4DB8-B940-175B24120CDB" /* ComparisonContentView.swift */,
-				"TEMP_04919F3A-723A-4015-8674-50997BB2EC22" /* BookmarkManager.swift */,
+				"TEMP_05B32649-33BB-4333-ABFC-9112EBB9A190" /* HexDocument.swift */,
+				"TEMP_4EDF4D23-229F-4513-B367-35FA3BD66618" /* ChecksumView.swift */,
+				"TEMP_F4291E49-DB3D-4078-9B72-07F091126BD0" /* HexTextView.swift */,
+				"TEMP_C3648F8C-30A3-4A07-AAF8-5BAFD28E1B42" /* ComparisonHexTextView.swift */,
+				"TEMP_630DF546-B784-4CAF-A98E-7EF0C53D180C" /* SearchView.swift */,
+				"TEMP_31C61B69-2AAF-4E9B-8C4D-540BA1B7FDBB" /* InsertDataView.swift */,
+				"TEMP_FC50BE38-FFA6-41F6-95FD-5C0677EBA9E4" /* BitmapView.swift */,
+				"TEMP_6CA1AD28-6249-4E51-9AE4-91A718B9EC0C" /* MetadataEditorView.swift */,
+				"TEMP_83B92DCD-8BCB-4FD2-8AA5-A08A2FC29953" /* StatisticsView.swift */,
+				"TEMP_E38B9FDC-6F42-4DB4-B1FD-D43483A55183" /* ComparisonHexGridView.swift */,
+				"TEMP_3CCE090F-007D-4E13-BBDC-133A51B4CE02" /* HexGridView.swift */,
+				"TEMP_79325A71-B371-4908-B06C-B55895B1E5E2" /* FileInfoView.swift */,
+				"TEMP_6B6CBD78-0CB0-4678-AA83-C5C16FF78A81" /* project.yml */,
+				"TEMP_CC87B983-2F65-4DB4-91F8-CDA7A28CCACD" /* InspectorView.swift */,
+				"TEMP_6B900509-9AAD-4CDA-9604-D0C13B9BFAD0" /* HexInputHelper.swift */,
+				"TEMP_9AB9A2B1-AFC9-4EB5-9609-7F52C60B414F" /* StringsView.swift */,
+				"TEMP_F60EBFA2-4044-42D9-B793-2513EBE21B50" /* StringExtractor.swift */,
+				"TEMP_C5AA7FD5-131C-4095-9FA5-B7D145B7AD84" /* ByteColorScheme.swift */,
+				"TEMP_82C4576B-65E9-46A8-9871-5CF473E0EC14" /* ExportView.swift */,
+				"TEMP_AAAA0DA8-89E6-44B3-A12F-1C219F8657D8" /* .gitignore */,
+				"TEMP_BFEC8175-5F33-42E5-8533-F939302038FE" /* DataBuffer.swift */,
+				"TEMP_08E8AEB4-F19A-4C8C-A34D-18784E0C1683" /* DiffEngine.swift */,
+				"TEMP_B704DB20-CD44-4079-ABD5-5403885C37D8" /* MetadataManager.swift */,
+				"TEMP_D5B35B50-8801-42F1-9470-00F310CBDF35" /* HxEditorApp.swift */,
+				"TEMP_F30E9334-4A82-48D1-B505-D19D2C8B9C7C" /* StatusBarView.swift */,
+				"TEMP_6975CD21-4538-48DA-8198-B85DA01CD746" /* BitmapRenderer.swift */,
+				"TEMP_A0995AE2-E85B-4F04-A16C-FF7DC9398760" /* QuickActionsView.swift */,
+				"TEMP_3BC65E7D-A13F-409A-8D73-41755D364751" /* ContentView.swift */,
+				"TEMP_86FBA2AE-2C20-4EB5-935E-65FADD574F08" /* JumpToOffsetView.swift */,
+				"TEMP_45C26002-D680-4531-AECE-9346A28BC05F" /* ComparisonContentView.swift */,
+				"TEMP_76981C8B-4422-4B06-983A-8887BB92A040" /* BookmarkManager.swift */,
 			);
 			name = .;
 			path = .;
@@ -185,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C7F245198588570D941DC1 /* project.yml in Resources */,
+				10185F5718783123B6D05091 /* project.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,35 +196,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75139AB82116846DCFA955B /* BitmapRenderer.swift in Sources */,
-				E103A54075F96D373CC1AB19 /* BitmapView.swift in Sources */,
-				1D88A8647E70E5C40562798A /* BookmarkManager.swift in Sources */,
-				3D4AAAB9C5383C4C321D9C24 /* ByteColorScheme.swift in Sources */,
-				AF25F3F66E71AD6BCB652D14 /* ChecksumView.swift in Sources */,
-				B63A0EE655AB573F15F785F9 /* ComparisonContentView.swift in Sources */,
-				8A34389A8BBEDF2E8FBB4085 /* ComparisonHexGridView.swift in Sources */,
-				FB083E0432BE80B86457343B /* ComparisonHexTextView.swift in Sources */,
-				A691E42277B413985CBC490A /* ContentView.swift in Sources */,
-				BED67B21838D499C2D329866 /* DataBuffer.swift in Sources */,
-				935EA0EBC7DB3CA616AD3B13 /* DiffEngine.swift in Sources */,
-				3F854CA0955FCA67BFD44C4D /* ExportView.swift in Sources */,
-				09E4E794A844D543DE81A102 /* FileInfoView.swift in Sources */,
-				8A7ED594BAFFDF5E8D79044F /* HexDocument.swift in Sources */,
-				59C518AB0EFE22950536E770 /* HexGridView.swift in Sources */,
-				C59C2B68CCA313FD9BD339DB /* HexInputHelper.swift in Sources */,
-				92404561E2CFB20C456523EC /* HexTextView.swift in Sources */,
-				0F4C1FF5C25C22F0427C903D /* HxEditorApp.swift in Sources */,
-				E876796052E9FED3BC752A7D /* InsertDataView.swift in Sources */,
-				B14FAEF8A827A5CC86E533C0 /* InspectorView.swift in Sources */,
-				C1EF1FB180665745798BF2C9 /* JumpToOffsetView.swift in Sources */,
-				A3848274882C8672C50D4097 /* MetadataEditorView.swift in Sources */,
-				BAD82DA34513D1C8232A91B7 /* MetadataManager.swift in Sources */,
-				E714CB1B23DFEDC67BD9DEC8 /* QuickActionsView.swift in Sources */,
-				78DBD638F2A1A0C419ECEB17 /* SearchView.swift in Sources */,
-				0D23BF9DCC0FEB5B7A82664E /* StatisticsView.swift in Sources */,
-				0B586ABFADF6B0A40A54F5BF /* StatusBarView.swift in Sources */,
-				362296C5D2D18F3EBE821902 /* StringExtractor.swift in Sources */,
-				34CB73751FB209D299D28278 /* StringsView.swift in Sources */,
+				4B8753EE11D041B4DE4138FA /* BitmapRenderer.swift in Sources */,
+				25B80789E290708FC5D69560 /* BitmapView.swift in Sources */,
+				13CD7205387D3016268DC34F /* BookmarkManager.swift in Sources */,
+				A7D39966FAF0E257422D81C4 /* ByteColorScheme.swift in Sources */,
+				90EB9A6D6E0DAB7061A12B00 /* ChecksumView.swift in Sources */,
+				9A1FD39BC31FA2CD83BFBF09 /* ComparisonContentView.swift in Sources */,
+				78BF5E6C3449D6B9018F3DF7 /* ComparisonHexGridView.swift in Sources */,
+				2077C625E3B1F33E7850DC8E /* ComparisonHexTextView.swift in Sources */,
+				6555833B00BD97E770FA16DF /* ContentView.swift in Sources */,
+				11AFF6BA36404584468D821D /* DataBuffer.swift in Sources */,
+				4BBD0D2BEDCA785E15E5C6EE /* DiffEngine.swift in Sources */,
+				74BEDA7B7190317783B2D3FA /* ExportView.swift in Sources */,
+				9F5F1706F1899E0D09EE2318 /* FileInfoView.swift in Sources */,
+				9C45B9A4DF6B89EA80EFB173 /* HexDocument.swift in Sources */,
+				2430B3D413E602E72D93BD8F /* HexGridView.swift in Sources */,
+				4325CC1B925B7CBF0184A46D /* HexInputHelper.swift in Sources */,
+				411293D7FA235578AC3BCF7F /* HexTextView.swift in Sources */,
+				A36B9DAC8D0FAC31688E5113 /* HxEditorApp.swift in Sources */,
+				F7F1DBE653B74B8C83A48DF9 /* InsertDataView.swift in Sources */,
+				064BD25453E4E4B844278323 /* InspectorView.swift in Sources */,
+				3AC29CA5EE4D30ABF9F24A69 /* JumpToOffsetView.swift in Sources */,
+				2D34D531C3F72F97207F64F4 /* MetadataEditorView.swift in Sources */,
+				0E2A2EC4F7BC1E93EE4F0052 /* MetadataManager.swift in Sources */,
+				F09184F58EDEAE9AE7AECA00 /* QuickActionsView.swift in Sources */,
+				A6D8FCD770DD782DDA056F41 /* SearchView.swift in Sources */,
+				18B50F89DA13393BC36CE767 /* StatisticsView.swift in Sources */,
+				DF76D98471D7CB58EFC772BB /* StatusBarView.swift in Sources */,
+				5320DBA77D1AAB08587E1246 /* StringExtractor.swift in Sources */,
+				B44CFF6BD103EB54E086596E /* StringsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
